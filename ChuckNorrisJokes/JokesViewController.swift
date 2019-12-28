@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  JokesViewController.swift
 //  ChuckNorrisJokes
 //
 //  Created by Andrei Kucherenko on 28.12.2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class JokesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

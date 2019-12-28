@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  APIViewController.swift
 //  ChuckNorrisJokes
 //
 //  Created by Andrei Kucherenko on 28.12.2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class APIViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
