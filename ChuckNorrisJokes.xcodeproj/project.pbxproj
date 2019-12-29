@@ -14,6 +14,9 @@
 		4138F1DA23B7169A00A75754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4138F1D823B7169A00A75754 /* Main.storyboard */; };
 		4138F1DC23B716A000A75754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4138F1DB23B716A000A75754 /* Assets.xcassets */; };
 		4138F1DF23B716A000A75754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4138F1DD23B716A000A75754 /* LaunchScreen.storyboard */; };
+		4138F1E723B8F22200A75754 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138F1E623B8F22200A75754 /* JokeModel.swift */; };
+		4138F1EE23B8F5B400A75754 /* JokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138F1EC23B8F5B400A75754 /* JokeCell.swift */; };
+		4138F1EF23B8F5B400A75754 /* JokeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4138F1ED23B8F5B400A75754 /* JokeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		4138F1DB23B716A000A75754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4138F1DE23B716A000A75754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4138F1E023B716A000A75754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4138F1E623B8F22200A75754 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
+		4138F1EC23B8F5B400A75754 /* JokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCell.swift; sourceTree = "<group>"; };
+		4138F1ED23B8F5B400A75754 /* JokeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JokeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				4138F1D023B7169A00A75754 /* AppDelegate.swift */,
+				4138F1E623B8F22200A75754 /* JokeModel.swift */,
 				4138F1D223B7169A00A75754 /* SceneDelegate.swift */,
+				4138F1EC23B8F5B400A75754 /* JokeCell.swift */,
+				4138F1ED23B8F5B400A75754 /* JokeCell.xib */,
 				4138F1D423B7169A00A75754 /* JokesViewController.swift */,
 				4138F1D623B7169A00A75754 /* APIViewController.swift */,
 				4138F1D823B7169A00A75754 /* Main.storyboard */,
@@ -130,6 +139,7 @@
 			files = (
 				4138F1DF23B716A000A75754 /* LaunchScreen.storyboard in Resources */,
 				4138F1DC23B716A000A75754 /* Assets.xcassets in Resources */,
+				4138F1EF23B8F5B400A75754 /* JokeCell.xib in Resources */,
 				4138F1DA23B7169A00A75754 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +153,8 @@
 			files = (
 				4138F1D723B7169A00A75754 /* APIViewController.swift in Sources */,
 				4138F1D523B7169A00A75754 /* JokesViewController.swift in Sources */,
+				4138F1EE23B8F5B400A75754 /* JokeCell.swift in Sources */,
+				4138F1E723B8F22200A75754 /* JokeModel.swift in Sources */,
 				4138F1D123B7169A00A75754 /* AppDelegate.swift in Sources */,
 				4138F1D323B7169A00A75754 /* SceneDelegate.swift in Sources */,
 			);
