@@ -90,20 +90,60 @@
 		4138F1CF23B7169A00A75754 /* ChuckNorrisJokes */ = {
 			isa = PBXGroup;
 			children = (
-				4138F1D023B7169A00A75754 /* AppDelegate.swift */,
-				4138F1E623B8F22200A75754 /* JokeModel.swift */,
-				4138F1D223B7169A00A75754 /* SceneDelegate.swift */,
-				4138F1EC23B8F5B400A75754 /* JokeCell.swift */,
-				4138F1ED23B8F5B400A75754 /* JokeCell.xib */,
-				4138F1D423B7169A00A75754 /* JokesViewController.swift */,
-				4138F1F023B924AC00A75754 /* NetworkService.swift */,
-				4138F1D623B7169A00A75754 /* APIViewController.swift */,
-				4138F1D823B7169A00A75754 /* Main.storyboard */,
-				4138F1DB23B716A000A75754 /* Assets.xcassets */,
-				4138F1DD23B716A000A75754 /* LaunchScreen.storyboard */,
+				41E989CF23B9C7FC006729D1 /* App */,
+				41E989CE23B9C7D5006729D1 /* Models */,
+				41E989CB23B9C72D006729D1 /* View */,
+				41E989CC23B9C781006729D1 /* Controllers */,
+				41E989CD23B9C7B7006729D1 /* Services */,
 				4138F1E023B716A000A75754 /* Info.plist */,
 			);
 			path = ChuckNorrisJokes;
+			sourceTree = "<group>";
+		};
+		41E989CB23B9C72D006729D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4138F1EC23B8F5B400A75754 /* JokeCell.swift */,
+				4138F1ED23B8F5B400A75754 /* JokeCell.xib */,
+				4138F1D823B7169A00A75754 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41E989CC23B9C781006729D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4138F1D423B7169A00A75754 /* JokesViewController.swift */,
+				4138F1D623B7169A00A75754 /* APIViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		41E989CD23B9C7B7006729D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4138F1F023B924AC00A75754 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		41E989CE23B9C7D5006729D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4138F1E623B8F22200A75754 /* JokeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41E989CF23B9C7FC006729D1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4138F1D023B7169A00A75754 /* AppDelegate.swift */,
+				4138F1D223B7169A00A75754 /* SceneDelegate.swift */,
+				4138F1DB23B716A000A75754 /* Assets.xcassets */,
+				4138F1DD23B716A000A75754 /* LaunchScreen.storyboard */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
