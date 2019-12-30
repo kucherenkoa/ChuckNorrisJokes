@@ -14,8 +14,8 @@ class JokeCell: UITableViewCell {
     
     @IBOutlet weak var jokeText: UILabel!
     
-    func setData(joke: String){
-        jokeText.text = joke
+    func setData(joke: JokeModel){
+        jokeText.text = joke.joke
     }
 
     override func awakeFromNib() {
