@@ -1,13 +1,13 @@
 # Приложение с шутками про Чака Норриса
 
 <img src="./Description/1.home.png" alt="Home"
-	title="A cute kitten" width="122" height="253" />
+	title="Home screen" width="122" height="253" />
 <img src="./Description/2.launch.png" alt="Launch"
-	title="A cute kitten" width="122" height="253" />
+	title="Launch screen" width="122" height="253" />
 <img src="./Description/3.jokes.png" alt="Jokes"
-	title="A cute kitten" width="122" height="253" />
+	title="Jokes screen" width="122" height="253" />
 <img src="./Description/4.api-info.png" alt="Api-Info"
-	title="A cute kitten" width="122" height="253" />
+	title="Api-Inf screen" width="122" height="253" />
 
 ## Задание
 
