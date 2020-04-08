@@ -1,5 +1,8 @@
-# Приложение с шутками про Чака Норриса
-
+# App with jokes about Chuck Norris
+<p align="center">
+  <span>English</span> |
+  <a href="README.ru-RU.md">Russian</a> 
+</p>
 <img src="./Description/1.home.png" alt="Home"
 	title="Home screen" width="122" height="253" />
 <img src="./Description/2.launch.png" alt="Launch"
@@ -9,25 +12,25 @@
 <img src="./Description/4.api-info.png" alt="Api-Info"
 	title="Api-Inf screen" width="122" height="253" />
 
-## Задание
+## The assignment
 
-* Разработать мобильное приложение под iOS
-* Минимальная версмия 10
-* Язык разработки не имеет значения
-* Допускается использование любых существующих фреймворков
-* Допускается (и будет плюсом) кастомизация дизайна, требуется сохранение общей концепции приложения
+* Develop a mobile app for iOS
+* Minimum supported iOS version 10
+* The language of development does not matter
+* You can use any existing frameworks
+* Customization of the design is allowed (and will be a plus), but the overall concept of the app must be preserved
 
-## Описание приложения
+## Description
 
-Мобильное приложение с шутками про Чака Норриса. Нижнее навигационное меню и две вкладки: 
-* На первой пользователь вводит желаемое количество шуток, нажимает LOAD. С сервера загружаются шутки про Чака Норриса в список вверху экрана. 
-* На второй вкладке браузер ссылкой на документацию по API.
+Mobile app with jokes about Chuck Norris. Bottom navigation menu include two tabs:
+* On the first tab, the user enters the desired number of jokes and presses LOAD. Jokes about Chuck Norris are uploaded from the server to the list at the top of the screen.
+* On the second tab, the API documentation web-page should be present.
 
-## Плюсами будут
+## The advantages
 
-* Использование популярных фреймворков для работы с сервером
-* Чистый и читаемый код с использованием SOLID
+* Use popular frameworks to work with the server
+* Clean and readable code (SOLID)
 
-## Дополнительная информация
+## Additional information
 
-* Ссылка на документацию: http://www.icndb.com/api/
+* A link to the documentation: http://www.icndb.com/api/
